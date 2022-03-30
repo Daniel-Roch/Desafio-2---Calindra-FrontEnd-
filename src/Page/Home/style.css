@@ -1,0 +1,127 @@
+.main-home{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Primeira section*/
+.section-cardOne-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 10px;
+
+    background: #E9E9E9;
+    gap: 20px;
+}
+.section-cardOne-home h1{
+    color: #716565;
+    font-size: 75px;
+}
+.section-cardOne-home img{
+    width: 600px;
+}
+
+/*Segunda section*/
+.section-cardTwo-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 450px 0px;
+    width: 100%;
+
+    background: #506FA9;
+    gap: 20px;
+
+    position: relative;
+}
+.section-cardTwo-home img{
+    position: absolute;
+    right: 0;
+}
+.div-cardTwo-home{
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+
+    width: 500px;
+}
+.div-cardTwo-home h1{
+    font-size: 70px;
+    color: #ffffff;
+}
+.div-cardTwo-home p{
+    font-size: 45px;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+/*-Mobie-*/
+@media (max-width: 990px){
+    .section-cardTwo-home{
+        flex-direction: column;
+        padding: 500px 0px;
+    }
+    .section-cardTwo-home img{
+        width: 720px;
+        bottom: 0;
+    }
+    .div-cardTwo-home{
+        width: 100vw;
+        top: 0;
+        left: 0px;
+        width: 100vw;
+    }
+    .div-cardTwo-home h1{
+        padding-left: 10px;
+    }
+    .div-cardTwo-home p{
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 850px) {
+    .section-cardOne-home{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+        padding: 50px 0px 150px 0px;
+    }
+    .section-cardOne-home h1{
+        padding-left: 45px;
+    }
+}
+
+@media (max-width: 720px) {
+    .div-cardTwo-home{
+        width: 100vw;
+    }
+}
+
+@media (max-width: 550px) {
+    .section-cardOne-home{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+        padding: 50px 0px 150px 0px;
+    }
+    .section-cardOne-home h1{
+        font-size: 55px;
+        padding-left: 20px;
+    }
+    .section-cardOne-home img{
+        width: 320px;
+    }
+
+    .section-cardTwo-home{
+        padding: 250px 0px;
+    }
+    .section-cardTwo-home img{
+        width: 270px;
+    }
+    .div-cardTwo-home h1{
+        font-size: 40px;
+    }
+    .div-cardTwo-home p{
+        font-size: 25px;
+    }
+}

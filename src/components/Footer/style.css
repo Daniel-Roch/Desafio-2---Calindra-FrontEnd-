@@ -1,0 +1,68 @@
+.main-footer{
+    display: flex;
+    background: #E9E9E9;
+
+    padding: 20px;
+
+    gap: 25%;
+}
+/*Parte dos icones*/
+.section-icons-footer{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 20px;
+}
+.section-icons-footer h1{
+    color: #716565;
+    font-size: 32px;
+}
+.div-icons-footer{
+    display: flex;
+    gap: 10px;
+}
+.div-icons-footer img{
+    width: 70px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/*Parte do Contato*/
+.section-info-footer{
+    display: flex;
+    flex-direction: column;
+}
+.section-info-footer h1{
+    color: #716565;
+    font-size: 32px;
+}
+.section-info-footer p{
+    color: #716565;
+}
+
+@media (max-width: 550px){
+    .main-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-icons-footer{
+        align-items: center;
+    }
+    .section-info-footer h1{
+        text-align: center;
+    }
+    .section-info-footer p{
+        text-align: center;
+    }
+}
+@media (max-width: 320px){
+    .section-icons-footer h1{
+        font-size: 28px;
+    }
+    .div-icons-footer img{
+        width: 60px;
+    }
+    .section-info-footer h1{
+        font-size: 28px;
+    }
+}
