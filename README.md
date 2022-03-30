@@ -13,3 +13,7 @@ JS, etc.
 - 1º  Comece com o comando: `npm install` no terminal, para instalar as dependências. (Neste caso usei apenas o React.), note que ele irá criar a pasta `node_modules`
 
 - 2º Depois de instalar as dependências, ainda no terminal, dê o comando: `npm start`, e abrirá a janela do localHost:3000 onde mostrará a página web.
+
+## Foi hospedado no  Netlify:
+
+- Você pode visualizar o site clicando no [Link](https://earnest-jalebi-7a05cd.netlify.app/).
